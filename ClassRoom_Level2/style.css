@@ -78,4 +78,118 @@ h1{
     background-color: rgb(221, 158, 57);;
  }
 
+ #inline{
+   background-color: red;
+   display: inline;
+ }
+
+ #box1{
+   background-color: green;
+   height: 100px;
+   width: 100px;
+   margin: 25px;
+   padding: 25px;
+
+   /* if we are using the inline-block then above all 5 properties has been appplied
+   If we are using the only inline then above all 5 proerties will not apply. */
+   display:  inline-block; 
+ }
+
+ #box2{
+   background-color: blue;
+   height: 100px;
+   width: 100px;
+   margin: 25px;
+   padding: 25px;
+
+   /* if we are using the inline-block then above all 5 properties has been appplied
+   If we are using the only inline then above all 5 proerties will not apply. */
+   display:  inline-block;
+
+ }
+
+ #box3{
+   background-color: red;
+   height: 100px;
+   width: 100px;
+   margin: 25px;
+   padding: 25px;
+
+   /* box 3 section removed from page and also space will not be reserved */
+   display: none;
+ }
+
+ /* This is practice set 4 code from line 124 to 181. */
+ #practiceSet4{
+   background-color: black;
+   display: inline;
+ }
+
+#headerData{
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}
+
+#contantArea{
+  height: 525px;
+}
+
+.footerData{
+  height:50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.set1{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255,0,0,0.5);
+  margin: 25px;
+  padding: 25px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+}
+
+.set2{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0,255,0,0.5);
+  margin: 25px;
+  padding: 25px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+}
+
+.set3{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0,0,255,0.5);
+  margin: 25px;
+  padding: 25px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+}
+
+ /* This is task 2 code from line 183 to 186. */
+ #Task_2{
+  background-color: black;
+  display: inline;
+}
+
+/* This is task 2 code from line 189 to 192. */
+#Task_1{
+  background-color: black;
+  display: inline;
+}
+
+ 
 
