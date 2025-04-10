@@ -15,3 +15,50 @@
     /* width:10vw;
     height: 100vh; */
 }
+
+.test{
+    background-color: aqua;
+    color: black;
+    height: 100px;
+    width: 100px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#box3{
+    position: static;
+    left: 50px;
+    background-image: url("1.jpg");
+    background-size: cover;
+}
+
+#box4{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+    background-image: url("2.jpg");
+    background-size: cover;
+}
+
+#box5{
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    background-image: url("3.jpg");
+    background-size: cover;
+}
+
+#box6{
+    position: fixed;
+    top: 0px;
+    background-image: url("4.jpg");
+    background-size: cover;
+}
+
+#box7{
+    position: sticky;
+    top: 0px;
+}
